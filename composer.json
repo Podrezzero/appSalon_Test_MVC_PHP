@@ -1,0 +1,24 @@
+{
+    "name": "danie/app-salon_php_mvc_js_sass",
+    "description": "php 8, MVC, SQL, SASS, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes",
+            "Dotenv\\": "vendor/vlucas/phpdotenv/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daniel",
+            "email": "daniel.puchau@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "v6.9.1",
+        "vlucas/phpdotenv": "*"
+    }
+}
